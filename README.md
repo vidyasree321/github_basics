@@ -1,10 +1,10 @@
-# 📚 GitHub Beginner's Guide Repository
+# GitHub Basics Repository
 
 This repository is a hands-on sandbox for anyone learning how to use Git and GitHub. Whether you're just starting out or need structured practice, this will walk you through everything from cloning to making pull requests. The goal: **make you comfortable with version control and collaborating on open-source platforms.**
 
 ---
 
-## 🧠 What You'll Learn
+## What You'll Learn
 
 - Basic Git commands
 - Setting up Git
@@ -38,7 +38,7 @@ git config --global user.email "youremail@example.com"
 
 ---
 
-## 🚀 Workflow Summary
+## Workflow Summary
 
 ```
 FORK → CLONE → BRANCH → COMMIT → PUSH → PULL REQUEST → MERGE
@@ -48,51 +48,49 @@ FORK → CLONE → BRANCH → COMMIT → PUSH → PULL REQUEST → MERGE
 
 ## 🛠️ Step-by-Step Instructions
 
-### ✅ Fork the Repository
+### Fork the Repository
+
+Forking creates a personal copy of someone else’s repository on your GitHub account. It lets you freely experiment with changes without affecting the original project
+
+#### How to fork a repo
 
 1. Go to the repo page on GitHub
 2. Click the **Fork** button on the top-right
-3. The repo is now copied to your account
 
----
 
-### ✅ Clone the Repository
+#### How to clone a repository
+
+1. Go to the repo page on github
+2. Click on the green `Code button` and then copy the link
+![Code](./images/code.png)
+3. Now open your terminal run this command
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/this-repo.git
-cd this-repo
+git clone your-repo-link
+cd github-basics # to enter the repo
 ```
 
 ---
 
-### ✅ Create a Branch
+### Create a Branch (Not Needed for this exercise)
+
+A branch is a separate line of development. It allows you to work on features or fixes without touching the main codebase until you’re ready
+
+#### How to create a branch
 
 ```bash
 git checkout -b your-branch-name
 ```
 
-Use a meaningful branch name:  
-Example: `git checkout -b add-naveen-file`
+---
+
+### Add your name to the CONTRIBUTORS.md file
+
+Open CONTRIBUTORS.md in your preferred code editor and your name in the given formatn I'VE GOT WORK HERE SAYING WHAT TO ADD
 
 ---
 
-### ✅ Make a Change
-
-Create a new file:
-
-```bash
-echo "Hello, I'm Naveen!" > contributions/naveen.txt
-```
-
-Or edit an existing file:
-
-```bash
-nano examples/sample.txt
-```
-
----
-
-### ✅ Stage and Commit
+### Stage and Commit
 
 ```bash
 git add .
@@ -103,7 +101,7 @@ Use clear commit messages.
 
 ---
 
-### ✅ Push to Your Fork
+### Push to Your Fork
 
 ```bash
 git push origin your-branch-name
@@ -111,7 +109,7 @@ git push origin your-branch-name
 
 ---
 
-### ✅ Open a Pull Request (PR)
+### Open a Pull Request (PR)
 
 1. Go to your forked repo on GitHub
 2. Click **Compare & pull request**
@@ -119,17 +117,6 @@ git push origin your-branch-name
 4. Submit the PR to the original repo
 
 ---
-
-## 🔄 Syncing with Upstream
-
-If the original repo updates, sync your local copy:
-
-```bash
-git remote add upstream https://github.com/ORIGINAL_OWNER/this-repo.git
-git fetch upstream
-git checkout main
-git merge upstream/main
-```
 
 To push updates to your fork:
 
@@ -142,46 +129,13 @@ git push origin main
 ## 🔀 Resolving Merge Conflicts
 
 If there's a conflict:
-
-```bash
-git pull origin main
-# Fix conflicts in files manually
-git add conflicted-file
-git commit
-```
-
-Then push again:
-
-```bash
-git push origin your-branch-name
-```
+HOW DO I EXPLAIN THIS
 
 ---
 
-## 📁 Recommended Directory Layout
-
-```
-this-repo/
-├── README.md
-├── examples/
-│   ├── sample.txt
-├── contributions/
-│   ├── your-name.txt
-├── .gitignore
-├── LICENSE
-```
-
----
-
-## 🧪 Suggested Exercises
-
-| Task                             | File Path                | Difficulty |
-|----------------------------------|---------------------------|------------|
-| Add your name                   | `contributions/`          | Easy       |
-| Edit a line in `sample.txt`     | `examples/sample.txt`     | Easy       |
-| Create a new folder             | `examples/<your-name>/`   | Medium     |
-| Delete a file                   | `rm contributions/temp.txt` | Medium     |
-| Resolve a merge conflict        | Any file                  | Hard       |
+## Contributors
+ 
+A TABLE THAT'LL FETCH FROM CONTRIBUTORS.md
 
 ---
 
@@ -195,43 +149,9 @@ this-repo/
 
 ---
 
-## 📚 Additional Learning Resources
+## A Couple Useful things
 
-- [Pro Git Book](https://git-scm.com/book/en/v2)
-- [GitHub Docs](https://docs.github.com/en)
+- [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Learn Git Branching](https://learngitbranching.js.org/)
-
----
-
-## 🧑‍💻 Contribute to This Repo
-
-You are encouraged to:
-
-- Add your name to the `contributors` list
-- Improve this README
-- Create sample projects in the repo
-- Help others in issues or PRs
-
----
-
-## 🙌 Contributors
-
-| Name            | Secret                      |
-|-----------------|-----------------------------------|
-| Naveen Srinivas | I like reading fantasy novels and hate romance |
-| Aadarsh Mahesh K| |
-
-To add your name:
-
-```bash
-echo "- Your Name | What You Did" >> CONTRIBUTORS.md
-```
-
-Then commit and push.
-
----
-
-## 📜 License
-
-MIT License. Use freely with attribution.
+- [GitHub File Icons](https://chromewebstore.google.com/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe)
+- [ani-cli](https://github.com/pystardust/ani-cli)

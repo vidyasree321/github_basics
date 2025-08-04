@@ -56,7 +56,9 @@ Forking creates a personal copy of someone else’s repository on your GitHub ac
 
 1. Go to the repo page on GitHub
 2. Click the **Fork** button on the top-right
-
+![Fork](./images/fork.png)
+3. Now edit the name to suit you and click on create fork
+![Create Fork](./images/create_fork.png)
 
 #### How to clone a repository
 

@@ -38,7 +38,7 @@ git config --global user.email "youremail@example.com"
 
 ---
 
-## Workflow Summary
+## Workflow Summary for our exercise
 
 ```
 FORK → CLONE → BRANCH → COMMIT → PUSH → PULL REQUEST → MERGE
@@ -86,9 +86,9 @@ git checkout -b your-branch-name
 
 ---
 
-### Add your name to the CONTRIBUTORS.md file
+### Add your name to the 'Make your Work Permanent' section
 
-Open CONTRIBUTORS.md in your preferred code editor and your name in the given formatn I'VE GOT WORK HERE SAYING WHAT TO ADD
+Open CONTRIBUTORS.md in your preferred code editor and your name to push
 
 ---
 
@@ -96,7 +96,7 @@ Open CONTRIBUTORS.md in your preferred code editor and your name in the given fo
 
 ```bash
 git add .
-git commit -m "Add naveen.txt with introduction"
+git commit -m "add: a new feature"
 ```
 
 Use clear commit messages.
@@ -135,9 +135,12 @@ HOW DO I EXPLAIN THIS
 
 ---
 
-## Contributors
- 
-A TABLE THAT'LL FETCH FROM CONTRIBUTORS.md
+## Make your work permanent
+
+| Name        | Fact about yourself     |
+|-------------|--------|
+| Naveen      | I love coffee, but I occasionally cheat on it with tea |
+
 
 ---
 
@@ -155,5 +158,6 @@ A TABLE THAT'LL FETCH FROM CONTRIBUTORS.md
 
 - [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Copilot for Students](https://github.com/education/students)
 - [GitHub File Icons](https://chromewebstore.google.com/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe)
 - [ani-cli](https://github.com/pystardust/ani-cli)

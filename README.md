@@ -88,7 +88,7 @@ git checkout -b your-branch-name
 
 ### Add your name to the 'Make your Work Permanent' section
 
-Open CONTRIBUTORS.md in your preferred code editor and your name to push
+Open this file in your preferred code editor and add your name to the table [here](#make-your-work-permanent)
 
 ---
 

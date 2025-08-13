@@ -86,9 +86,9 @@ git checkout -b your-branch-name
 
 ---
 
-### Add your name to the 'Make your Work Permanent' section
+### Add your name to the CONTRIBUTORS.md
 
-Open this file in your preferred code editor and add your name to the table [here](#make-your-work-permanent)
+Open this file in your preferred code editor and add your name to [CONTRIBUTORS.md](./CONTRIBUTORS.md)
 
 ---
 
@@ -96,7 +96,7 @@ Open this file in your preferred code editor and add your name to the table [her
 
 ```bash
 git add .
-git commit -m "add: a new feature"
+git commit -m "add: <name> to CONTRIBUTORS.md"
 ```
 
 Use clear commit messages.
@@ -135,15 +135,6 @@ HOW DO I EXPLAIN THIS
 
 ---
 
-## Make your work permanent
-
-| Name        | Fact about yourself     |
-|-------------|--------|
-| Naveen      | I love coffee, but I occasionally cheat on it with tea |
-
-
----
-
 ## 🧹 Best Practices
 
 - Commit often, with clear messages
@@ -158,6 +149,5 @@ HOW DO I EXPLAIN THIS
 
 - [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Copilot for Students](https://github.com/education/students)
 - [GitHub File Icons](https://chromewebstore.google.com/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe)
 - [ani-cli](https://github.com/pystardust/ani-cli)
